@@ -17,6 +17,7 @@
 4. Copy to Clipboard Function:
 - The copytoclipboard function copies the generated password to the clipboard and alerts the user.
 - It uses the navigator.clipboard.writeText method and selects the password input field.
+- passwordref is used to select the text when copied -> passwordref.current.select()
 5. Return JSX Structure:
 - The component returns a JSX structure representing the UI of the password generator.
 6. Main Container:
